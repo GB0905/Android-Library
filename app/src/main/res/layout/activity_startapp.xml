@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/startlogo"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/startlogo" />
+
+</LinearLayout>
+
+    <!--COPYRIGHT 달기-->
+    <!--이미지 출처 : Flaticon 로고-->
+
+    <!--
+      ~ Copyright (c) 2022. [곽권빈]. All rights reserved.
+      ~ Create by [인하공전_컴퓨터시스템과_201945025_곽권빈] on 2022. 6. 10.
+      -->

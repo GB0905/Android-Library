@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/noticetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"
+            android:text="공지사항"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/covtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="방역 관련"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="① 도서관 출입, 좌석 발급 및 도서 대출시 QR 코드로 이용 가능"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="② 시설 이용 전 반드시 발열 체크"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="③ 올바른 마스크 착용"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="④ 좌석 간 간격 유지 (사용 가능 좌석만 이용 가능)"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⑤ 일반열람실 창문 수시 개방으로 환기 중"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⑥ 제1, 2, 3열람실은 매일 09:00 방역 소독 후 이용 가능"/>
+
+
+        <TextView
+            android:id="@+id/loantext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="대출/반납"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.5dp"
+            android:text="대출권수 및 기간"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="학생 : 5권 15일"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="교직원 : 10권 30일"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이용 안내 : 현장에서 QR코드로 대출/반납 가능"
+            android:textSize="10dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/roomtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="도서관 좌석"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.5dp"
+            android:text="이용방법"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 원하는 좌석 예약 이후 입실 (좌석 예약 변경 가능)"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. 현장에서 QR코드 스캔 이후 이용"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. 퇴실 시 퇴실 하기 선택 (입실시 퇴실 하기 가능)"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. 퇴실 이후 현장 직원에게 요금 지불"/>
+
+        <TextView
+            android:id="@+id/timetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="도서관 이용시간"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <ImageView
+            android:id="@+id/opeingimg"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/opening" />
+            <!--이미지 출처 : 인하공전 도서관-->
+    </LinearLayout>
+
+    <Button
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/URLbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:onClick="onClick"
+        android:text="홈페이지 이동"
+        android:textSize="18dp"/>
+
+</FrameLayout>

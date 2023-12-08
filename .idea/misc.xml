@@ -1,0 +1,38 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LIbrary/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.331" />
+        <entry key="..\:/LIbrary/app/src/main/res/drawable/activiy_seat.xml" value="0.2055" />
+        <entry key="..\:/LIbrary/app/src/main/res/drawable/ic_launcher_background.xml" value="0.331" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/activity_book.xml" value="0.3269927536231884" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/activity_detail.xml" value="0.2749003984063745" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/activity_fragment.xml" value="0.5" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/activity_pass.xml" value="0.33" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/activity_seat.xml" value="0.33" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/activity_startapp.xml" value="0.3269927536231884" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/activiy_seat.xml" value="0.18" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/book_borrow.xml" value="0.2692502532928065" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/book_list.xml" value="0.5536458333333333" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/bookitem.xml" value="0.5" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/custome.xml" value="0.37681159420289856" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/login_phone.xml" value="0.4569746376811594" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/notice.xml" value="0.5" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/opening.xml" value="0.75" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/phone_seat.xml" value="0.33" />
+        <entry key="..\:/LIbrary/app/src/main/res/layout/startapp.xml" value="0.5536458333333333" />
+        <entry key="..\:/LIbrary/app/src/main/res/mipmap-anydpi-v26/ic_main.xml" value="0.3635" />
+        <entry key="..\:/LIbrary_GGB/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2735" />
+        <entry key="..\:/LIbrary_GGB/app/src/main/res/layout/activity_main.xml" value="0.26165146909827763" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

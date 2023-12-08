@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.libraryproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main"
+        android:label="인하 도서관"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LibraryProject">
+        <activity android:name=".StartActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"> </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"> </activity>
+        <activity android:name=".NoticeActivity"
+            android:screenOrientation="portrait"> </activity>
+        <activity android:name=".SeatActivity"
+            android:screenOrientation="portrait"> </activity>
+        <activity android:name=".BookActivity"
+            android:screenOrientation="portrait"> </activity>
+        <activity android:name=".DetailActivity"
+            android:screenOrientation="portrait"> </activity>
+        <activity android:name=".PassActivity"
+            android:screenOrientation="portrait"> </activity>
+    </application>
+
+</manifest>
+
+<!--android:screenOrientation="portrait" = 세로모드 고정-->
+    <!--
+      ~ Copyright (c) 2022. [곽권빈]. All rights reserved.
+      ~ Create by [인하공전_컴퓨터시스템과_201945025_곽권빈] on 2022. 6. 10.
+      -->
